@@ -24,11 +24,18 @@ The MetricInstance of a metric can be know by checking manually i.e open the tra
 Part of the text file generated from the above command 
 
 METRIC_CLASS                           0  Occurrence: SYNCHRONOUS_STRICT, Kind: CPU, 3 Members: "PAPI_L1_DCM" <0>, "PAPI_L2_DCM" <1>, "PAPI_L2_DCH" <2>
+
 METRIC_CLASS                           1  Occurrence: ASYNCHRONOUS, Kind: ABSTRACT, 1 Member: "CPU_Freq2" <3>
+
 METRIC_INSTANCE                        2  Class: 1, Recorder: "" <4294967296>, Scope: SYSTEM_TREE_NODE "tegra-ubuntu" <1>
+
 METRIC_CLASS                           3  Occurrence: ASYNCHRONOUS, Kind: ABSTRACT, 1 Member: "CPU_Freq1" <4>
+
 METRIC_INSTANCE                        4  Class: 3, Recorder: "" <8589934592>, Scope: SYSTEM_TREE_NODE "tegra-ubuntu" <1>
+
+
 
 Metric class of "PAPI_L1_DCM", "PAPI_L2_DCM", "PAPI_L2_DCH" is 0
 MerticInstance of "CPU_Freq2" is 2 and "CPU_Freq1" is 4
+
 -------------------------------------------------------------------------------------------------------------------------------
