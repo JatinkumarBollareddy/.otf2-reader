@@ -17,7 +17,7 @@ Code overview-
 The code varies from case to case depending on the number of metrics being traced, so should alter the code accordingly. i.e is the lists appending and plotting part of the code.
 
 
-------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 The MetricInstance of a metric can be know by checking manually i.e open the trace file from the terminal using the command "otf2 -open -A trace.otf2 >log "
 
 
@@ -34,4 +34,4 @@ METRIC_INSTANCE                        4  Class: 3, Recorder: "" <8589934592>, S
 Metric class of "PAPI_L1_DCM", "PAPI_L2_DCM", "PAPI_L2_DCH" is 0
 MerticInstance of "CPU_Freq2" is 2 and "CPU_Freq1" is 4
 
--------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
